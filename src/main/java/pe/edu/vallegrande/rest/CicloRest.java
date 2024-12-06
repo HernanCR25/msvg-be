@@ -46,7 +46,7 @@ public class CicloRest {
     }
 
     // Crear un nuevo ciclo
-    @PostMapping
+    @PostMapping("/create")
     public Mono<CicloModel> createCiclo(@RequestBody CicloModel ciclo) {
         return cicloService.createCiclo(ciclo);
     }
