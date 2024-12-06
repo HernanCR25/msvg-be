@@ -5,6 +5,6 @@ spring:
   application:
     name: ciclo-vida
   r2dbc:
-    url: ${DATABASE_URL}
-    username: ${DATABASE_USERNAME}
-    password: ${DATABASE_PASSWORD}
+    url: r2dbc:postgresql://ep-muddy-dust-a52fckvk.us-east-2.aws.neon.tech:5432/neondb?sslmode=require
+    username: neondb_owner
+    password: 7neyBO0FmpJt
